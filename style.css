@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --background-blue: #3A5BC7;
+    --background-red: #D13415;
+    --background-white: #fdf1f1;
+    --text-color: #191919;
+    --decoration-brown: #D2C7AE;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+
+.container h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.shapes {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    background-color: var(--background-blue);
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: -600px;
+}
+
+.triangle {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-right: 80px solid transparent;
+    border-bottom: 150px solid var(--decoration-brown);
+    border-left: 70px solid transparent;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    right: -600px;
+
+}
+
+.rectangle {
+    width: 70px;
+    height: 30px;
+    background-color: var(--background-red);
+    position: absolute;
+    left: -30px;
+    transform: rotate(45deg);
+}
+
+
+.hand-image {
+    width: 500px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.arrow {
+    font-size: 2em;
+    color: black;
+    bottom: 0;
+}
+
+
+
+.definition {
+    height: 80vh;
+    background-color: var(--decoration-brown);
+}
+
+
+.electionrate {
+    height: 80vh;
+    background-color: var(--background-white);
+}
+
+
+.today {
+    height: 80vh;
+    background-color: var(--background-blue);
+}
+
+.regionalrates {
+    height: 80vh;
+    background-color: var(--background-white);
+}
+
+h2 {
+    margin: 0;
+}
+
+footer {
+    background-color: var(--background-red);
+}
