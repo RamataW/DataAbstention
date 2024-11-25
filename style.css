@@ -232,3 +232,11 @@ footer {
     border-radius: 50px;
     padding: 15px;
 }
+
+
+.src{
+    background-color: var(--background-red);
+    color: #fdf1f1;
+    border-radius: 50px;
+    padding: 15px;
+}
