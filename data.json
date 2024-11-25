@@ -1,0 +1,22 @@
+{
+    "titre": "Taux d'abstention au 1er tour des élections législatives françaises 1958-2022",
+    "donnees": [
+      { "annee": 1958, "taux_abstention": 22.80, "unite": "%" },
+      { "annee": 1962, "taux_abstention": 31.30, "unite": "%" },
+      { "annee": 1967, "taux_abstention": 18.90, "unite": "%" },
+      { "annee": 1968, "taux_abstention": 20.00, "unite": "%" },
+      { "annee": 1973, "taux_abstention": 18.70, "unite": "%" },
+      { "annee": 1978, "taux_abstention": 16.80, "unite": "%" },
+      { "annee": 1981, "taux_abstention": 29.10, "unite": "%" },
+      { "annee": 1986, "taux_abstention": 21.50, "unite": "%" },
+      { "annee": 1988, "taux_abstention": 34.30, "unite": "%" },
+      { "annee": 1993, "taux_abstention": 30.80, "unite": "%" },
+      { "annee": 1997, "taux_abstention": 32.00, "unite": "%" },
+      { "annee": 2002, "taux_abstention": 35.60, "unite": "%" },
+      { "annee": 2007, "taux_abstention": 39.60, "unite": "%" },
+      { "annee": 2012, "taux_abstention": 42.80, "unite": "%" },
+      { "annee": 2017, "taux_abstention": 51.29, "unite": "%" },
+      { "annee": 2022, "taux_abstention": 53.20, "unite": "%" }
+    ]
+  }
+  
