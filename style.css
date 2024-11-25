@@ -89,14 +89,73 @@ body {
     font-size: 2em;
     color: black;
     bottom: 0;
+    margin-bottom: 50px;
 }
 
 
 
 .definition {
     height: 80vh;
-    background-color: var(--decoration-brown);
+    background-image: url(img/img-noise-2000x728-white.png);
+    border: var(--text-color) solid 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding-inline: 50px;
 }
+
+.img-def img{
+    max-width: 500px;
+}
+
+.txt-def{
+    max-width: 800px;
+}
+
+.txt-def h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.txt-def p{
+    font-size: 1.2rem;
+}
+
+
+.txt-def ol {
+    list-style: none; 
+    padding: 0;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+  }
+
+  .txt-def ol li{
+    counter-increment: list-item;
+    margin-bottom: 30px;
+    padding-left: 3em; 
+    position: relative;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .txt-def ol li::before {
+    content: counter(list-item);
+    background-color: var(--background-blue);
+    color: var(--decoration-brown); 
+    border-radius: 50%; 
+    width: 2em;
+    height: 2em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold; 
+    position: absolute; 
+    left: 0; 
+  }
+
 
 
 .electionrate {
@@ -105,20 +164,71 @@ body {
 }
 
 
-.today {
-    height: 80vh;
-    background-color: var(--background-blue);
-}
-
 .regionalrates {
     height: 80vh;
-    background-color: var(--background-white);
+    background-image: url(img/noise2000x728.png);
+
 }
 
-h2 {
+.today {
+    height: fit-content;
+    background-image: url(img/img-noise-2000x728-white.png);
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.txt-today h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.txt-today{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1024px;
+}
+
+.txt-today p{
+    font-size: 1.2rem;
+}
+
+.img-today img{
+    width: 400px;
+}
+
+.img-today{
+    margin-bottom: -4px;
+}
+
+
+h2{
     margin: 0;
 }
 
+
 footer {
+    background-image: url(img/img-noise-2000x200-red.png);
+    height: 20vh;
+}
+
+
+.danger{
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.home-danger{
     background-color: var(--background-red);
+    color: #fdf1f1;
+}
+
+.ml{
+    background-color: var(--background-blue);
+    color: #fdf1f1;
+    border-radius: 50px;
+    padding: 15px;
 }
