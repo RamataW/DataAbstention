@@ -165,7 +165,6 @@ body {
 
 
 .regionalrates {
-    height: 80vh;
     background-image: url(img/noise2000x728.png);
 
 }
@@ -240,3 +239,9 @@ footer {
     border-radius: 50px;
     padding: 15px;
 }
+
+
+#map {
+    height: 600px;
+    max-width:1000px;
+  }
